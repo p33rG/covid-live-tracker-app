@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@700&family=Piazzolla:ital,wght@0,500;1,100;1,200&display=swap');
+
+
+section
+{
+    text-align: center;
+        margin-top: 10%;
+}
+.card
+{
+    flex: 0 0 calc(33.33% - 20px);
+        margin-bottom: 20px;    
+}
+.card_main
+{
+    width: auto;
+        height: 180px;
+        background-color: #ff0000d4;
+        text-align: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        list-style: none;
+}
+p{
+    color: white;
+        font-size: 4vh;
+}
+span
+{
+    font-size: 2vh;
+}
+.card_total
+{
+    font-family: Josefin;
+        font-size: 7vh;
+        /* line-height: 0px; */
+        margin-top: -40px;
+        text-shadow: 5px 5px 8px black;
+}
+
+.card_name
+{
+        padding-top: 15px;
+}
+
+.breathing-header {
+    animation: breathing 2s infinite ease-in-out;
+}
+
+@keyframes breathing {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+}
